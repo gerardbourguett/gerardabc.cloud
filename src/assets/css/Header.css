@@ -1,0 +1,75 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.cv {
+  float: right;
+  margin-left: 20px;
+}
+
+.cv h3 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+.cv h3:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 110px;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.home h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+.home p {
+  margin: 0;
+  font-size: 24px;
+}
+
+.home a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home .izq {
+  width: 50%;
+}
+
+.home .der {
+  width: 50%;
+}
+
+.home .der img {
+  width: 80%;
+}

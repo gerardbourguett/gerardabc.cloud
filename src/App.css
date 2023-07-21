@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap");
+@import url("./assets/css/Header.css");
+@import url("./assets/css/Navbar.css");
+
+:root {
+  --color-background: #011627; /* Color de fondo (azul oscuro) */
+  --color-primary: #2ec4b6; /* Turquesa */
+  --color-secondary: #ff9f1c; /* Amarillo naranja */
+  --color-accent: #ff6b6b; /* Rojo */
+  --color-text: #eaeaea; /* Texto gris claro */
+}
+
+.container {
+  display: flex; /* Mostrar como flexbox */
+  justify-content: space-between; /* Alinear los elementos a los extremos */
+  align-items: center; /* Alinear verticalmente */
+  background-color: #333; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 20px; /* Espacio interno */
+  margin-top: 0; /* Eliminar el margen superior */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
